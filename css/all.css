@@ -2,9 +2,24 @@ body{
     background-color: #eee;
 }
 
+.container{
+    width: 1200px;
+}
+
 .title{
     font-size: 26px;
     text-transform: uppercase;
     color:white;
     background-color: teal;
+}
+
+.picture{
+    width: 1000px;
+    
+}
+
+img{
+    object-fit: cover;
+    width: 100%;
+    height: auto;
 }
